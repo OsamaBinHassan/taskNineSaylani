@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.heading-container{
+    background-color: #0000001f;
+    margin: 10px 0px;
+    box-shadow: 10px 10px 20px rgb(94 80 227 / 31%);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+.name-submit{
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    color: #00000082;
+}
+.heading{
+    margin: 0px;
+    text-align: center;
+    color: lightseagreen;
+    padding: 10px 0px;
+}
+.main-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.left-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.left-list-container{
+    width: 100%;
+}
+
+.left-text-first{
+    font-size: 40px;
+    color: #000000b3;
+    font-family: sans-serif;
+}
+.left-text-green{
+    color: #7bc608;
+    font-size: 40px;
+}
+.offer-container{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #000000c9;
+}
+.list-offer{
+    margin: 0px;
+    width: 75%;
+    color: cornflowerblue;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 0px;
+}
+.left-desc{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #00000094;
+}
+.right-conatiner{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+ol{
+    margin: 0px;
+    width: 20%;
+}
+.btn-left{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    border: 1px solid #00000061;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: #0000009e;
+}
+.btn-left:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+  transform: scale(1); 
+}
+.left-btn-icon{
+    max-width: 20px;
+}
+.right-img{
+  max-width: 400px;
+}
+.typing-container {
+    overflow: hidden; 
+    white-space: nowrap; 
+    border-right: 2px solid #000; 
+    width: 0; 
+    animation: typing 8s steps(40, end) infinite, blink-caret 0.5s step-end infinite;
+  }
+
+  .typing-container:nth-child(2) {
+    animation-delay: 4s; 
+  }
+
+  .typing-container:nth-child(3) {
+    animation-delay: 8s;
+  }
+
+  @keyframes typing {
+    0%, 100% {
+      width: 0;
+    }
+    25%, 75% {
+      width: 100%;
+    }
+    50% {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #000;
+    }
+  }
